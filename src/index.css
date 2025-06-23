@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  color-scheme: dark;
+    font-family: "Poppins", sans-serif;
+    color: rgb(228, 228, 228);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.link:hover {
+  background: linear-gradient(to right, #fd7d1a, #f54d0a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.linkBg:hover {
+  background: linear-gradient(to right, #fd7d1a, #f54d0a);
+  color: white;
+}
+
+.bgColor {
+  background: linear-gradient(to right, #fd7d1a, #ac3203);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btnColor {
+  background: linear-gradient(to right, #fd7d1a, #ac3203);
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
