@@ -11,7 +11,7 @@ const Features = () => {
     <>
       <div className="w-full flex-col items-center">
         <div className="container">
-          <div className="item1 bg-[#131313] flex justify-center w-full !mx-auto">
+          <div className="item1 flex justify-center w-full !mx-auto">
             <h3 className="heading uppercase text-[14px] !px-2 bgColor">
               Feature
             </h3>
