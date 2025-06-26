@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
+
+
 const SliderLeft = (props) => {
   const [submenuIndex, setSubmenuIndex] = useState(null);
   const [innerSubmenuIndex, setInnerSubmenuIndex] = useState(null);
@@ -9,20 +11,22 @@ const SliderLeft = (props) => {
     props.setIsOpenCatPanel(newOpen);
   };
 
+  
+ 
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation ">
       <div className="!py-12 !px-6  ">
         <ul className="list-none">
-          <li className="!py-4">
+          <li className="!py-4" onClick={toggleDrawer(false)}>
             <a href="#Features">Features</a>
           </li>
-          <li className="!py-4">
+          <li className="!py-4" onClick={toggleDrawer(false)}>
             <a href="#Workflow">Workflow</a>
           </li>
-          <li className="!py-4">
+          <li className="!py-4" onClick={toggleDrawer(false)}>
             <a href="#Pricing">Pricing</a>
           </li>
-          <li className="!py-4">
+          <li className="!py-4" onClick={toggleDrawer(false)}>
             <a href="#Test">Testimonials</a>
           </li>
         </ul>
