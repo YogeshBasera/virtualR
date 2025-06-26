@@ -35,7 +35,7 @@ const Pricing = () => {
                     <p className="text-[12px] ">Private Mode</p>
                   </div>
                   <div className="flex items-center justify-center">
-                    <button className="border border-[#9c2e0370] btnColor linkBg transition !px-20 !py-[7px] rounded-sm !mt-14 text-[16px] text-[#b9b9b9] cursor-pointer">
+                    <button className="border border-[#9c2e0370] btnColor linkBg transition !px-20 !py-[7px] rounded-sm !mt-14 text-[16px] cursor-pointer">
                       Subscribe
                     </button>
                   </div>
@@ -65,7 +65,7 @@ const Pricing = () => {
                     <p className="text-[12px] ">Private Mode</p>
                   </div>
                   <div className="flex items-center justify-center">
-                    <button className="border border-[#9c2e0370] btnColor linkBg transition !px-20 !py-[7px] rounded-sm !mt-14 text-[16px] text-[#b9b9b9] cursor-pointer">
+                    <button className="border border-[#9c2e0370] btnColor linkBg transition !px-20 !py-[7px] rounded-sm !mt-14 text-[16px]  cursor-pointer">
                       Subscribe
                     </button>
                   </div>
@@ -95,7 +95,7 @@ const Pricing = () => {
                     <p className="text-[12px] ">Private Mode</p>
                   </div>
                   <div className="flex items-center justify-center">
-                    <button className="border border-[#9c2e0370] btnColor linkBg transition !px-20 !py-[7px] rounded-sm !mt-14 text-[16px] text-[#b9b9b9] cursor-pointer">
+                    <button className="border border-[#9c2e0370] btnColor linkBg transition !px-20 !py-[7px] rounded-sm !mt-14 text-[16px] cursor-pointer">
                       Subscribe
                     </button>
                   </div>
