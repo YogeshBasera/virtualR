@@ -11,8 +11,8 @@ const Testimonials = () => {
     <>
       <div className="flex w-full">
         <div className="container">
-          <div className="heading flex justify-center items-center !py-4">
-            <h1 className="text-[3rem]">What People are saying</h1>
+          <div className="heading flex justify-center items-center !mt-7 md:!mt-0 !py-4">
+            <h1 className=" text-2xl md:text-[3rem]">What People are saying</h1>
           </div>
           <div className="box flex flex-wrap gap-4 justify-center   ">
             <div className="card1  h-[180px] w-[310px] border border-[#5c5c5c31] bg-[#1d1d1dc4] rounded-sm">
