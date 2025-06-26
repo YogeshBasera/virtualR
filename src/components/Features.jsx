@@ -9,6 +9,7 @@ import { MdDashboard } from "react-icons/md";
 const Features = () => {
   return (
     <>
+    <section id="Features" className="scroll-mt-20">
       <div className="w-full flex-col items-center">
         <div className="container">
           <div className="item1 flex justify-center w-full !mx-auto">
@@ -16,7 +17,7 @@ const Features = () => {
               Feature
             </h3>
           </div>
-          <div className="item2 flex justify-center !mt-10">
+          <div className="item2 flex justify-center !mt-6">
             <h1 className=" text-2xl md:text-[3rem]">
               Easily build <span className="bgColor">your code</span>
             </h1>
@@ -24,7 +25,7 @@ const Features = () => {
           <div className="item3 w-full flex flex-wrap items-center justify-center !mt-10 md:gap-4 ">
             <div className=" flex-row h-[130px] w-[300px] md:h-[200px] ">
               <div className="firstLine flex gap-4">
-                <RiRobot2Line className=" bg-[#1b1b1b] h-[21px] w-[21px] rounded-2xl !px-[3px] " />
+                <RiRobot2Line className="  btnColor md:!bg-none md:!transition-none h-[21px] w-[21px] rounded-2xl !px-[3px] " />
                 <h3 className="text-[14px] ">Darg-and-Drop Interface</h3>
               </div>
               <p className=" text-[12px] flex items-center justify-center !ml-4 !mt-2 md:!mt-5">
@@ -36,7 +37,7 @@ const Features = () => {
 
             <div className=" flex-row h-[145px] w-[300px] md:h-[200px] gap-3 ">
               <div className="firstLine flex gap-4">
-                <FaFingerprint className=" bg-[#1b1b1b] h-[21px] w-[21px] rounded-2xl !px-[3px] " />
+                <FaFingerprint className="btnColor md:!bg-none md:!transition-none h-[21px] w-[21px] rounded-2xl !px-[3px] " />
                 <h3 className="text-[14px] ">Multi-Platform Compatibility</h3>
               </div>
               <p className="text-[12px] flex items-center justify-center !mt-2 md:!mt-5">
@@ -49,7 +50,7 @@ const Features = () => {
 
             <div className=" flex-row h-[145px] w-[300px] md:h-[200px] gap-3">
               <div className="firstLine flex gap-4">
-                <AiOutlineSafetyCertificate className=" bg-[#1b1b1b] h-[21px] w-[21px] rounded-2xl !px-[3px] " />
+                <AiOutlineSafetyCertificate className=" btnColor md:!bg-none md:!transition-none h-[21px] w-[21px] rounded-2xl !px-[3px] " />
                 <h3 className="text-[14px] ">Built-in Templates</h3>
               </div>
               <p className="text-[12px] flex items-center !ml-9 !mt-2 md:!mt-5 ">
@@ -62,7 +63,7 @@ const Features = () => {
 
             <div className=" flex-row h-[130px] w-[300px] md:h-[200px] gap-3">
               <div className="firstLine flex gap-4">
-                <RiBatteryChargeLine className=" bg-[#1b1b1b] h-[21px] w-[21px] rounded-2xl !px-[3px] " />
+                <RiBatteryChargeLine className=" btnColor md:!bg-none md:!transition-none h-[21px] w-[21px] rounded-2xl !px-[3px] " />
                 <h3 className="text-[14px] ">Real-Time Preview</h3>
               </div>
               <p className="text-[12px] flex items-center !ml-9 !mt-2 md:!mt-5">
@@ -75,7 +76,7 @@ const Features = () => {
 
             <div className=" flex-row h-[145px] w-[300px] md:h-[200px] gap-3">
               <div className="firstLine flex gap-4">
-                <GrConnect className=" bg-[#1b1b1b] h-[21px] w-[21px] rounded-2xl !px-[3px] " />
+                <GrConnect className="btnColor md:!bg-none md:!transition-none h-[21px] w-[21px] rounded-2xl !px-[3px] " />
                 <h3 className="text-[14px] ">Collaboration Tools</h3>
               </div>
               <p className="text-[12px] flex items-center justify-center !mt-2 md:!mt-5">
@@ -88,7 +89,7 @@ const Features = () => {
 
             <div className=" flex-row h-[150px] w-[300px] md:h-[200px] gap-3">
               <div className="firstLine flex gap-4">
-                <MdDashboard className=" bg-[#1b1b1b] h-[21px] w-[21px] rounded-2xl !px-[3px] " />
+                <MdDashboard className="btnColor md:!bg-none md:!transition-none h-[21px] w-[21px] rounded-2xl !px-[3px] " />
                 <h3 className="text-[14px] ">Analytics Dashboard</h3>
               </div>
               <p className="text-[12px] flex items-center justify-center !ml-4 !mt-2 md:!mt-5">
@@ -102,6 +103,8 @@ const Features = () => {
           </div>
         </div>
       </div>
+    </section>
+      
     </>
   );
 };

@@ -5,7 +5,8 @@ import img2 from "../assets/right.png";
 const WorkflowSection = () => {
   return (
     <>
-      <div className="workflowSection w-full ">
+    <section id="Workflow" className="scroll-mt-18">
+       <div className="workflowSection w-full ">
         <div className="container">
           <div className="item1 flex justify-center text-center !mt-2">
             <h1 className=" text-2xl md:text-[3rem]">
@@ -56,6 +57,8 @@ const WorkflowSection = () => {
           </div>
         </div>
       </div>
+    </section>
+     
     </>
   );
 };

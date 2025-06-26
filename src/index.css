@@ -19,7 +19,7 @@
 
 .link:hover {
   background: linear-gradient(to right, #fd7d1a, #f54d0a);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
@@ -30,7 +30,7 @@
 
 .bgColor {
   background: linear-gradient(to right, #fd7d1a, #ac3203);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 

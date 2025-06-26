@@ -9,9 +9,11 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 const Testimonials = () => {
   return (
     <>
-      <div className="flex w-full">
+
+    <section id="Test" className="scroll-mt-8">
+       <div className="flex w-full">
         <div className="container">
-          <div className="heading flex justify-center items-center !mt-7 md:!mt-0 !py-4">
+          <div className="heading flex justify-center items-center !mt-7  !py-4">
             <h1 className=" text-2xl md:text-[3rem]">What People are saying</h1>
           </div>
           <div className="box flex flex-wrap gap-4 justify-center   ">
@@ -161,6 +163,8 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
+    </section>
+     
     </>
   );
 };

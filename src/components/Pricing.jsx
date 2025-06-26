@@ -5,7 +5,8 @@ import { TiTick } from "react-icons/ti";
 const Pricing = () => {
   return (
     <>
-      <div className="flex w-full !mt-8">
+      <section id="Pricing" className="scroll-mt-20">
+        <div className="flex w-full !mt-8">
         <div className="container">
           <div className="flex-row items-center justify-center w-full">
             <div className="flex justify-center !mt-2">
@@ -44,7 +45,10 @@ const Pricing = () => {
 
               <div className="card2 md:w-[310px] md:h-[400px] border border-[#4949498c] rounded-lg ">
                 <div className="w-full flex-row !px-6 !py-5 ">
-                  <h3 className="text-[28px]">Pro <span className="text-[14px] bgColor">(Most Popular)</span></h3>
+                  <h3 className="text-[28px]">
+                    Pro{" "}
+                    <span className="text-[14px] bgColor">(Most Popular)</span>
+                  </h3>
                   <p className="text-[13px] !mt-5 text-[#adadad]">
                     <span className="text-4xl text-white">$10</span> /Month
                   </p>
@@ -100,12 +104,13 @@ const Pricing = () => {
                     </button>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
       </div>
+      </section>
+      
     </>
   );
 };
